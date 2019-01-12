@@ -126,7 +126,7 @@ void display(){
 	int i=0;
 	//the loop to keep on moving over the list while taking output from each  data in each browser node,untill the current hit's null(i.e. the address stored in tail)
 	while(current != NULL){
-		cout<<current->data<<"->NULL";
+		cout<<current->data<<"->";
 		i++;
 		current=current->next;
 	}
